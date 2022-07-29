@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Alex Brush';
+    font-style: normal;
+    font-weight: 600;
+    src: url('fonts/alex-brush-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/alex-brush-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+html {
+    background-image: url(photos/7.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    color: rgb(60, 0, 128);
+    font-family: Alex Brush, cursive;
+    font-size: 80px;
+}
+.top_text {
+    width: 800px;
+    color: rgb(20, 20, 88);
+    padding: 25px;
+    font-family:"Lucida Handwriting", cursive;
+    font-size: 20px;
+    border: groove;
+    border-color:rgb(4, 107, 107);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 5px;
+}
+.cont{
+    width: 650px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+}
+.icon {
+    border: double;
+    border-color:rgb(9, 46, 46);
+    border-width: 5px;
+    width: 200px;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Alex Brush, cursive;
+    font-size: 26px;
+}
+.card{
+    height: 500px;
+    width: 900px;
+    border:solid;
+    border-color:rgb(9, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(163, 163, 228);
+    border-radius: 10px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image img{
+    height: 450px;
+    width: 300px;
+    padding-right: 20px;
+}
+.card h3{
+    display:flex;
+    align-self:flex-start;
+    padding-left: 10px;
+    font-family: Alex Brush, cursive;
+    font-size: 60px;
+}
+.card p{
+    font-family:"Lucida Handwriting", cursive;
+    font-size: 20px;
+}
